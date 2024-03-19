@@ -1,0 +1,19 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;  
+    padding: 15px;  
+}
+
+.navlogo img{
+    width: 33%;
+}
+
+.signin button{
+    background-color: rgb(209, 21, 21);
+    padding: 8px 20px;
+    border-radius: 6%;
+    border: none;
+}

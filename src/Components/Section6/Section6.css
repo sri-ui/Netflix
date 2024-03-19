@@ -1,0 +1,37 @@
+.section6{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border-bottom: 5px solid rgba(3, 3, 3, 0.748);
+}
+
+.accordion{
+    width: 800px;
+}
+.item{
+    background-color: rgba(9, 9, 9, 0.832);
+    padding: 10px 20px;
+
+}
+.title{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.content{
+    background-color:rgba(8, 5, 5, 0.766);
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content.show{
+    max-height: 9999px;
+}

@@ -1,0 +1,29 @@
+.section4{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: black;
+}
+
+.section-content{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.section-media{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.img{
+    position: relative;
+}
+
+.section-media .play{
+    position: absolute;
+    padding-top: 130px;
+    right: 290px;
+    width: 390px;
+}

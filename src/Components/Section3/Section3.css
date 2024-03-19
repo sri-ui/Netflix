@@ -1,0 +1,42 @@
+.Section3{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-container{
+    width: 50%;
+    padding: 20px;
+}
+
+.box{
+    display: flex;
+    color: white;
+    padding-left: 150px;
+}
+
+.con1 img{
+    width:80px;
+}
+
+h5{
+    padding: 50px;
+}
+
+.img{
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.progress{
+    padding-top: 20px;
+}
+.progress img{
+    padding: 5px;
+    height: 70px;
+}

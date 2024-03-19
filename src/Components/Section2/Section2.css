@@ -1,0 +1,32 @@
+.section2{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.section-content{
+    color: rgb(247, 245, 245);
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    padding: 150px;
+    font-size: xx-large;
+}
+
+.section-video{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.section-img{
+    width: 100%;
+}
+
+.video1{
+    position: absolute;
+    left: 195px;
+    width: 640px;
+    height: 400px;
+}
+
